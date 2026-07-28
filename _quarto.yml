@@ -1,0 +1,33 @@
+project:
+  type: website
+
+website:
+  title: "A From-Scratch CNN on the Kaggle Digit Recognizer Dataset"
+  description: "A compact case study training a small CNN from scratch on MNIST: careful evaluation beyond accuracy, published via Quarto."
+  site-url: "https://ianlopezdiaz.github.io/kaggle-digit-recognizer"
+  #favicon: images/favicon.ico # optional - remove if there is none
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Notebook"
+        href: notebooks/digit_recognizer.ipynb
+    right:
+      - text: Portfolio
+        href: https://ianlopezdiaz.github.io/portfolio
+      - icon: github
+        href: https://github.com/ianlopezdiaz/kaggle-digit-recognizer
+
+  page-footer:
+    left: "(c) 2026 ianlopezdiaz"
+    right: "Built with [Quarto](https://quarto.org/)"
+
+format:
+  html:
+    theme:
+      dark: solar
+      light: minty
+    toc: true
+    toc-depth: 3
+    code-fold: show
+    highlight-style: github
