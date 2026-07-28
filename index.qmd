@@ -88,6 +88,6 @@ The site is published to GitHub Pages by running `scripts/publish.sh`, which exe
 
 ## Status
 
-Trained and evaluated against the Kaggle data: the CNN reaches ~99% validation accuracy, with confusion matrix and correct/misclassified example figures generated. Not yet published to GitHub Pages.
+Complete: trained and evaluated against the Kaggle data (the CNN reaches ~99% validation accuracy), and published to GitHub Pages.
 
 ---
